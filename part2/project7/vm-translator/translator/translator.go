@@ -156,7 +156,9 @@ func (tr *Translator) writeTo(seg string, offset int, writeD bool) {
 			*tr.bufOut = append(*tr.bufOut, "@"+varName)
 		}
 
-		*tr.bufOut = append(*tr.bufOut, "M=D")
+		if writeD {
+			*tr.bufOut = append(*tr.bufOut, "M=D")
+		}
 
 		return
 	}
