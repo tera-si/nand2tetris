@@ -3,7 +3,7 @@ package constants
 const (
 	HelpMsg = `Hack VM Translator
 Usage:
-	vm-translator [-h/--help] [-v/--verbose] BYTECODE
+	vm-translator [-h/--help] BYTECODE
 
 Flags:
 	-h/--help            Shows this help message and exits.
