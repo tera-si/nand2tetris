@@ -22,7 +22,7 @@ Flags:
 
 Positional Argument:
         BYTECODE             File containing byte code for the Hack virtual machine.
-                                                        File is expected to have ".vm" extension. Required.
+                             File is expected to have ".vm" extension. Required.
 
 Description:
         The Hack virtual machine translator reads an Hack virtual machine bytecode
